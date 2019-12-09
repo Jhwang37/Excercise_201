@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- th:inline indicates that the value of text displayed is shown within the tag -->
+    <p th:inline="text">
+        The email used was [[${emailLogin}]]
+    </p>
+</body>
+</html>
